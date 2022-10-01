@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn publish --access public
+  /usr/local/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /var/folders/j8/ydzw9y2n2z75c1zny7fjhxbc0000gn/T/yarn--1664611431311-0.19281217768610803:/Users/stefano/Dev/NFTs/DefiChainDomains/address-encoder/node_modules/.bin:/Users/stefano/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 
 Yarn version: 
   1.22.17
@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "@ensdomains/address-encoder",
+    "name": "@defichaindomains/address-encoder",
     "version": "0.0.1",
     "description": "Encodes and decodes address formats for various cryptocurrencies",
     "source": "src/index.ts",
@@ -55,7 +55,7 @@ npm manifest:
       "ethereum",
       "encoding"
     ],
-    "author": "Nick Johnson <nick@ens.domains>",
+    "author": "Defichain Domains",
     "license": "BSD",
     "devDependencies": {
       "@types/jest": "^24.0.18",
