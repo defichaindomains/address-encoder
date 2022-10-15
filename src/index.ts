@@ -1570,10 +1570,10 @@ export const formats: IFormat[] = [
   bitcoinBase58Chain('WICC', 99999, [[0x49]], [[0x33]]),
   getConfig('WAN', 5718350, wanChecksummedHexEncoder, wanChecksummedHexDecoder),
   getConfig('WAVES', 5741564, bs58EncodeNoCheck, wavesAddressDecoder),
+  bech32Chain('DFI NATIVE', 989, 'df'),
   // EVM chainIds
   evmChain('OP', 10),
   evmChain('CRO', 25),
-  evmChain('DFI', 999999999),
   evmChain('BSC', 56),
   evmChain('GO', 60),
   evmChain('ETC', 61),
@@ -1590,7 +1590,7 @@ export const formats: IFormat[] = [
   evmChain('ARB1', 42161),
   evmChain('CELO', 42220),
   evmChain('AVAXC', 43114),
-  evmChain('DFI', 9999999)
+  evmChain('DFI METACHAIN', 988)
 ];
 
 export const formatsByName: { [key: string]: IFormat } = Object.assign({}, ...formats.map(x => ({ [x.name]: x })));

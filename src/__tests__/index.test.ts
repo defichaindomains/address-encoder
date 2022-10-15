@@ -1268,6 +1268,20 @@ const vectors: Array<TestVector> = [
     passingVectors: [
       { text: '0x67316300f17f063085Ca8bCa4bd3f7a5a3C66275', hex: '67316300f17f063085ca8bca4bd3f7a5a3c66275' },
     ],
+  },
+  {
+    name: 'DFI Native',
+    coinType: 999,
+    passingVectors: [
+      { text: 'df1pdx498r0hrc2fj36sjhs8vuhrz9hd2cw0tmam9', hex: '0b4d529c6fb8f0a4ca3a84af03b397188b76ab0e' },
+    ],
+  },
+  {
+    name: 'DFI METACHAIN',
+    coinType: convertEVMChainIdToCoinType(988),
+    passingVectors: [
+      { text: '0x67316300f17f063085Ca8bCa4bd3f7a5a3C66275', hex: '67316300f17f063085ca8bca4bd3f7a5a3c66275' },
+    ],
   }
 ];
 
