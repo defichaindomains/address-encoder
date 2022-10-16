@@ -43,9 +43,10 @@
   },
   "dependencies": {
     "bech32": "^2.0.0",
+    "bech32-converting": "^1.0.9",
     "blakejs": "^1.1.0",
     "bn.js": "^4.11.8",
-    "bs58": "^4.0.1",
+    "bs58": "^5.0.0",
     "crypto-addr-codec": "^0.1.7",
     "js-crc": "^0.2.0",
     "js-sha256": "^0.9.0",
