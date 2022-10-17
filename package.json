@@ -1,6 +1,6 @@
 {
   "name": "@defichaindomains/address-encoder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Encodes and decodes address formats for various cryptocurrencies",
   "source": "src/index.ts",
   "main": "lib/index.js",
