@@ -1,6 +1,6 @@
 {
   "name": "@defichaindomains/address-encoder",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Encodes and decodes address formats for various cryptocurrencies",
   "source": "src/index.ts",
   "main": "lib/index.js",
@@ -33,6 +33,7 @@
     "@types/node": "^12.7.12",
     "@types/ripemd160": "^2.0.0",
     "browserify": "^16.5.0",
+    "buffer": "^6.0.3",
     "jest": "^26.4.2",
     "microbundle": "^0.12.4",
     "prettier": "^1.18.2",
@@ -47,6 +48,7 @@
     "blakejs": "^1.1.0",
     "bn.js": "^4.11.8",
     "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
     "crypto-addr-codec": "^0.1.7",
     "js-crc": "^0.2.0",
     "js-sha256": "^0.9.0",

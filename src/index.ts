@@ -1,3 +1,4 @@
+import { Buffer } from "buffer";
 import { bech32, bech32m } from 'bech32';
 const {
   decode: bech32Decode,
